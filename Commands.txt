@@ -1,0 +1,27 @@
+Exercise 2
+sudo snap install aws-cli --classic
+aws --version
+
+$ export AWS_ACCESS_KEY_ID=
+$ export AWS_SECRET_ACCESS_KEY=
+
+
+sudo snap install terraform --classic
+
+Terraform Registry. 
+https://registry.terraform.io/browse/providers
+
+Exercise 3
+mkdir learn-terraform-aws
+
+cd learn-terraform-aws
+
+touch main.tf
+
+terraform init
+terraform fmt
+terraform validate
+
+Exercise 4
+
+$ terraform destroy -target RESOURCE_TYPE.NAME
